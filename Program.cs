@@ -57,6 +57,10 @@ namespace CursoCSharp {
                 {"ParametroPadrao - Classes e Metodos", ParametroPadrao.Executar},
                //Colecoes
                 {"Array - Colecoes", Colecoes.Array.Executar},
+                {"List - Colecoes", ColecoesList.Executar},
+                {"ArrayList - Colecoes", ColecoesArrayList.Executar},
+                {"Set - Colecoes", ColecoesSet.Executar},
+                {"Queue - Colecoes", ColecoesQueue.Executar},
             }) ;
 
             central.SelecionarEExecutar();
