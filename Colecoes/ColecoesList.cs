@@ -6,11 +6,11 @@ namespace CursoCSharp.Colecoes {
 
     public class Produto {
         public string Nome;
-        public double preco;
+        public double Preco;
 
         public Produto(string nome, double preco) {
             Nome = nome;
-            preco = preco;
+            Preco = preco;
         }
     }
     class ColecoesList {
