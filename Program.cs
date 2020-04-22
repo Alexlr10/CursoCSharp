@@ -8,6 +8,8 @@ using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
 using CursoCSharp.MetodosEFuncoes;
 using Encapsulamento;
+using CursoCSharp.Exceçoes;
+using CursoCSharp.Api;
 
 namespace CursoCSharp {
     class Program {
@@ -82,6 +84,11 @@ namespace CursoCSharp {
                 {"DelegateFunAnonima - Metodos & Funções", DelegateFunAnonima.Executar},
                 {"DelegatesComoParametros - Metodos & Funções", DelegatesComoParametros.Executar},
                 {"MetodosDeExtensao - Metodos & Funções", MetodosDeExtensao.Executar},
+               //Exceçoes
+                {"PrimeiraExceçao - Exceções", PrimeiraExceçao.Executar},
+                {"ExcecoesPersonalizadas - Exceções", ExcecoesPersonalizadas.Executar},
+               //Api
+                {"PrimeiroArquivo - Usando Api", PrimeiroArquivo.Executar},
             }) ;
 
             central.SelecionarEExecutar();
