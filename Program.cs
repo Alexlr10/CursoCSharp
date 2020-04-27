@@ -10,6 +10,7 @@ using CursoCSharp.MetodosEFuncoes;
 using Encapsulamento;
 using CursoCSharp.Exceçoes;
 using CursoCSharp.Api;
+using CursoCSharp.TopicosAvanacados;
 
 namespace CursoCSharp {
     class Program {
@@ -95,6 +96,10 @@ namespace CursoCSharp {
                 {"ExemploDirectoryInfo - Usando Api", ExemploDirectoryInfo.Executar},
                 {"ExemploPath - Usando Api", ExemploPath.Executar},
                 {"ExemploDateTime - Usando Api", ExemploDateTime.Executar},
+                {"ExemploTimespan - Usando Api", ExemploTimespan.Executar},
+               //Topicos Avançados
+                {"LINQ1 - Topicos Avançados", LINQ1.Executar},
+                {"LINQ2 - Topicos Avançados", LINQ2.Executar},
             }) ;
 
             central.SelecionarEExecutar();
